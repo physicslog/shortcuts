@@ -1,15 +1,15 @@
 on run {input, parameters}
-    -- 1. Remember what you are currently working on
+    -- Remember what you are currently working on
     tell application "System Events"
         set currentApp to name of first application process whose frontmost is true
     end tell
     
-    -- 2. Send the playlist URL in the background
+    -- Send the playlist URL in the background
     try
-        do shell script "open -g 'kaset://play?v=mHKNroJOcig&list=PLfVtzWk5HJKI'"
+        do shell script "open -g 'kaset://play?v=HAcLoqZO-Z0&list=PLq6yr86PEdlsHbudMCPW7tLisGjtpLGtA'"
     end try
     
-    -- 3. Instantly suppress Kaset if macOS tries to un-minimize it
+    -- Instantly suppress Kaset if macOS tries to un-minimize it
     try
         tell application "System Events"
             if exists (process "Kaset") then
@@ -24,7 +24,7 @@ on run {input, parameters}
     -- Give Kaset time to process the link
     delay 2
     
-    -- 4. Shuffle silently
+    -- Shuffle silently
     try
         tell application "Kaset"
             toggle shuffle
@@ -33,7 +33,7 @@ on run {input, parameters}
     
     delay 0.5
     
-    -- 5. Skip to the random track
+    -- Skip to the random track
     try
         tell application "Kaset"
             next track
