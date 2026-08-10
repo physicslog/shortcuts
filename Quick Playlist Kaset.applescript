@@ -1,5 +1,5 @@
 on run {input, parameters}
-    -- Check if the kaset is already opened and it's in the minimize state.
+    -- Remember what apps you are currently working on
     tell application "System Events"
         set currentApp to name of first application process whose frontmost is true
     end tell
