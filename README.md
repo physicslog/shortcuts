@@ -5,5 +5,5 @@
 - [Quick Playlist Kaset.applescript](https://raw.githubusercontent.com/physicslog/shortcuts/refs/heads/main/Quick%20Playlist%20Kaset.applescript?token=GHSAT0AAAAAAECSYZ6BG2K74MJZN5D7G5HI2TZOJAQ) - This is the AppleScript which will be used inside the Shortcuts.
   - Create a new shortcut
   - Search for "Run AppleScript"
-  - Paste this code into the AppleScript textbox.
+  - Paste this code into the AppleScript textbox. Replace this `kaset://play?v=HAcLoqZO-Z0&list=PLq6yr86PEdlsHbudMCPW7tLisGjtpLGtA` by the playlist link `https://www.youtube.com/watch?v=HAcLoqZO-Z0&list=PLq6yr86PEdlsHbudMCPW7tLisGjtpLGtA`
   - Done.
