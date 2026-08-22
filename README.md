@@ -11,5 +11,5 @@
 ------
 
  - [Add URL to Reading List in the Reminders App.shortcut](https://github.com/physicslog/shortcuts/raw/refs/heads/main/Add%20URL%20to%20Reading%20List%20in%20the%20Reminders%20App.shortcut)
-
+  - [Export Reading List in Apple Reminders to CSV.shortcut](https://github.com/physicslog/shortcuts/raw/refs/heads/main/Export%20Reading%20List%20in%20Apple%20Reminders%20to%20CSV.shortcut)
 ----
