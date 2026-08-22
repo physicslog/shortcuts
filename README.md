@@ -11,18 +11,5 @@
 ------
 
  - [Add URL to Reading List in the Reminders App.shortcut](https://github.com/physicslog/shortcuts/raw/refs/heads/main/Add%20URL%20to%20Reading%20List%20in%20the%20Reminders%20App.shortcut)
-- Assign the Hotkey to the Browser so that we tell macOS to only trigger this service when your selected Browser is the active window.
-  1. Open your Mac's System Settings (or System Preferences).
-  2. Navigate to Keyboard in the sidebar.
-  3. Click the Keyboard Shortcuts... button.
-  4. In the left sidebar of the popup, select App Shortcuts.
-  5. Click the + button to add a new rule.
-  6. Change the Application dropdown to the Browser of your choice. (If it is not in the list, click "Other..." and select it from your Applications folder).
-  7. In the Menu Title field, type the exact name of your shortcut (matching uppercase/lowercase exactly).
-  8. Click into the Keyboard Shortcut box and press `Cmd+Shift+S`.
-  9. Click Done.
-   
-  Now, when you press `Cmd+Shift+S` inside Brave, macOS will find the service with that name and run your shortcut. If you press it in any other app, nothing will happen (or it will perform that app's default action).
 
-  **Note that** For Brave users, go to the `brave://settings/system/shortcuts` -> Search "Sharing hub screenshot" -> Remove the shortcut so that it does not interfere with the `Cmd+Shift+S`.
 ----
